@@ -2,23 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Style global */
 body {
   @apply bg-gray-50;
 }
 
-/* Custom scrollbar */
+/* Personnalisation du scrollbar (optionnel) */
 ::-webkit-scrollbar {
   width: 8px;
 }
-
 ::-webkit-scrollbar-track {
   @apply bg-gray-100;
 }
-
 ::-webkit-scrollbar-thumb {
   @apply bg-[#FFC72C] rounded-full;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-[#e6b327];
 }
