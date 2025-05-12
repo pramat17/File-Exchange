@@ -5,10 +5,12 @@ import { FileIcon, Upload } from 'lucide-react';
 
 const THEMES = [
   'Séance complète',
+  'Documents Techniques',
   'FIO',
   'FID',
-  'Surnombre',
-  'Rotation Def'
+  'Préparation Physique',
+  'Jeu Rapide / Surnombre',
+  'Défense'
 ];
 
 const CATEGORIES = [

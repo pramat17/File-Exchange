@@ -58,7 +58,7 @@ const FileList: React.FC<FileListProps> = ({ filterCategory }) => {
           >
             Tous
           </button>
-          {['Séance complète', 'FIO', 'FID', 'Surnombre', 'Rotation Def'].map(theme => (
+          {['Séance complète', 'Documents Techniques', 'FIO', 'FID', 'Préparation Physique', 'Jeu Rapide / Surnombre', 'Défense'].map(theme => (
             <button
               key={theme}
               onClick={() => setActiveFilter(theme)}
